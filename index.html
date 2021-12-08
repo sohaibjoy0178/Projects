@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="row  justify-content-center align-items-center mt-5">
+           <div class="col-md-6 landing__banner mt-5">
+            
+            <div><a href="https://www.elmulquran.org"><img src="assets/images/reading-al-quran-vector-30906252.jpg" style="width: 100%;" alt=""></a></div>
+            
+            
+           </div>
+
+
+
+           <div class="col-md-6 ">
+            <form action="" class="form" id="forms" onsubmit="event.preventDefault()">
+              
+              <span class="landing__banner-label hide_on_mobile">Any Age</span>
+            <h1 class="heading hide_on_mobile mb-5">Learn Holy Quran From Today !! </h1>
+              <div class="step-forms step-forms-active">
+                  <div class="group-inputs"><input type="text"  id="phone" required> </div>
+                  
+                  <div class=""> <a href="#" class="btn btn-next width-50 ml-auto but">Schedule Your Free Class</a> </div>
+              </div>
+              <div class="step-forms">
+                  <div class="group-inputs"> <label for="p_name">Parents Name</label> <input type="text" name="name" id="student" required/> </div>
+                  <div class="group-inputs"> <label for="name">Students Name</label> <input type="text" name="name" id="student" required/> </div>
+                  <div class="group-inputs"> <label for="email">Email</label> <input type="text" name="email" id="email" required /> </div>
+                  <div class="group-inputs"> <label for="age">Students Age</label> <input type="number" name="age" id="age" required/></div>
+                            
+
+                  <div class="custom01">
+                    <p style="margin-bottom: -1px;">Preferred Teacher Gender:  </p>
+                    <input type="radio" id="radio02-01" name="demo02" required /><label for="radio02-01">Male Teacher</label>
+                    <input type="radio" id="radio02-02" name="demo02" required/><label for="radio02-02">Female Teacher</label>
+                    <input type="radio" id="radio02-03" name="demo02" required/><label for="radio02-03">Any</label>
+                    
+                  </div>
+
+                  <div class="custom02">
+                    <p style="margin-bottom: -1px;">Teacher Language: </p>
+                    <input type="radio" id="radio03-01" name="demo03" /><label for="radio03-01">Bangla</label>
+                    <input type="radio" id="radio03-02" name="demo03" /><label for="radio03-02">English</label>
+                    <input type="radio" id="radio03-03" name="demo03" /><label for="radio03-03">Both</label>
+                  </div>
+                  
+            
+      
+                  <div class="group-inputs" style="margin-top: 26px;"> <label for="Interested Course">Interested Course</label> 
+                    <select  name="email" id="email" >
+                      <option value="">Nurani Quaida</option>
+                      <option value="">Nurani Quaida</option>
+                      <option value="">Nurani Quaida</option>
+                      <option value="">Nurani Quaida</option>
+                      <option value="">Nurani Quaida</option>
+                    </select>
+                 </div>
+
+                
+                 <div id="datepicker" class=" date group-inputs" data-date-format="mm-dd-yyyy" style="margin-top: 25px;"> <label style="z-index: 2;">Pick Free Trial Date</label>
+                     <input class="form-control" type="text" readonly required/>
+                     <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                 </div>
+
+            
+
+                 <div  class=" group-inputs">
+                    <label for="Select Timee">Pick Free Trial Time</label> 
+                    
+                  <input type="time" class="form-control"
+                    type="text" id="datetime" required/>
+
+                 </div>
+
+                 <div class="group-inputs">
+                    <label for="Textarea">Additional Notes</label>
+                    <textarea class="form-control" id="Textarea" rows="3"></textarea>
+                  </div>
+
+                 <div class="group-inputs" style="margin-top: 26px;"> <label for="feedback"> Where Did You Find Us?</label> 
+                    <select  name="feedback" id="feedback" >
+                      <option value="">Reccomended by Friends</option>
+                      <option value="">Google</option>
+                      <option value="">Facebook</option>
+                      <option value="">Instagram</option>
+                      <option value="">Linkedin</option>
+                      <option value="">YouTube</option>
+                      <option value="">Other</option>
+                    </select>
+                 </div>
+
+
+                  <div class="btns-group"> <input type="submit" value="Schedule Your Free Class" id="submit-form" class="btn but" /> </div>
+              </div>
+             
+          </form>
+             
+            </div>
+        </div>
+         
+         
+        
+      </div>
+
+      <div class="container-fluid pb-5" style="background: #F5F8F8">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                 <h1 class="text-center mt-5 " style="font-size: 40px; font-weight: 900; font-family: cursive;">Get a Talent Discovery Certificate after trial class</h1>
+                <div class="text-center mt-5 ">
+                    <img src="assets/images/certificate.webp" class=" image" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="text-center">Why Choose <span class="text-one">ElmulQuran</span></h2>
+
+        <div class="row mt-5 align-items-stretch">
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-40 text-one">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Worldwide Recognized</h4>
+                            <p class="mt-3 text-justify">ElmulQuran is serving since 2020 in more than 60 countries of the world including USA, UK, Europe, Australia & Canada.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-40 text-one">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">24/7 Service</h4>
+                            <p class="mt-3 text-justify">We offer Quran lessons round the clock to make it possible for students to learn anywhere, anytime.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-40 text-one">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Appraisal Certificate</h4>
+                            <p class="mt-3 text-justify">We award a completion certificates after the successful evaluation of the completed course that is posted to students’ mail addresses.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-40 text-one">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Seamless Payment</h4>
+                            <p class="mt-3 text-justify">We have made it easy for you to process your invoices securely and safely via credit card, local bank transfers and PayPal.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-35 text-one">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Individual Classes</h4>
+                            <p class="mt-3 text-justify">We offer individual classes with students’ own gender and teaching preferences, one-to-one with students.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-40 text-one">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Evaluation Reports</h4>
+                            <p class="mt-3 text-justify">Not only does our Quality Control Team monitor teachers but they also provide students with a progress report every month.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-35 text-one">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Online Panel</h4>
+                            <p class="mt-3 text-justify">We have a learning management system to keep record of schedules, lessons, and payments.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-40 text-one">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Alternative Teachers</h4>
+                            <p class="mt-3 text-justify">To ensure that students do not miss out when their teachers are absent, we have substitute teachers to conduct their classes.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-4 wow animate__animated animate__fadeInUp">
+                <div style="height: 100%" class="shadow rounded p-3">
+                    <div class="row">
+                        <div class="col-2 fs-35 text-one">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="text-one">Multilingual Tutors</h4>
+                            <p class="mt-3 text-justify">We strive hard to hire expert Arab and Non-Arab, male and female Quran teachers around the world who can teach you in the language you are most comfortable speaking.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="bg-white mt-5">
+    
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2021 <a href="https://learntime.com.bd" target="_blank">LEARNTIME</a> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+    {{-- Toastr Js --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+        window.axios.defaults.headers.common['X-CSRF-TOKEN'] = `{{ csrf_token() }}`;
+
+        var input = document.querySelector("#phone");
+        let landingIntTel = intlTelInput(input, {
+            initialCountry: "auto",
+            autoHideDialCode: false,
+            geoIpLookup: function(success, failure) {
+                $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                    var countryCode = (resp && resp.country) ? resp.country : "us";
+                    success(countryCode);
+                });
+            },
+        });
+    </script>
+
+    <script src="https://kit.fontawesome.com/ed3aafd417.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src=
+    "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js">
+        </script>
+    <script src="assets/js/main.js"></script>
+
+
+<script type="text/javascript">
+  $(function () {
+      $('#datetimepicker3').datetimepicker({
+          format: 'LT'
+      });
+  });
+</script>
+
+  </body>
+</html>
